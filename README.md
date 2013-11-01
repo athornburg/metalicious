@@ -104,11 +104,11 @@ Importing a variable
 API
 ===
 RESTful API references are as follows:
-1. Database_Info urls are similar to example.com/database_api.php?database_id=1&action=database_info where database_id is the database ID.
++ Database_Info urls are similar to example.com/database_api.php?database_id=1&action=database_info where database_id is the database ID.
 + Actions are database_info, database_tables, and database_business_functions
-2. Variable_Info urls are similar to example.com/variable_api.php?variable_id=1&action=variable_info
++ Variable_Info urls are similar to example.com/variable_api.php?variable_id=1&action=variable_info
 + Actions are variable_info, and all_tables
-3. Table_Info urls are similar to example.com/table_api.php?table_id=1&action=table_info
++ Table_Info urls are similar to example.com/table_api.php?table_id=1&action=table_info
 + Actions are table_info, table_variables, and parent_databases
 
 
