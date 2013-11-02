@@ -7,7 +7,7 @@ include 'classes/table.php';
 
 $action = $_GET['action'];
 
-if($variable_info['Public'] == '0'){
+if($variable_info['Public'] == '1'){
 
 if($action == "variable_info"){
     $variable_info = Variable::get_variable_info($_GET['variable_id']);
